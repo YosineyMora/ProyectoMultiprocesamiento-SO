@@ -29,12 +29,30 @@ Además, para cada imagen se le obtuvieron distintas características y se anali
 
 En este gráfico se muestra que del total que eran 103 fotos, se detectaron 291 caras, de esas caras o personas se identificó 26 con accesorios, y hubieron distintas emociones como una persona con enfado, otra persona con miedo y otra persona con disgusto, no se encontraron personas sorprendidas ni tristes, habían 284 que presentaban alegría, así también 32 personas rebeldes y 26 personas con un estado neutro, además, también se encontró que 225 personas eran femeninas y 66 personas masculinas, también se sabe que la edad promedio de todas esas personas es 24 años y 194 presentan maquillaje en la fotos.
 
-#### Text to Speech y Speech translation
+#### Servicio de Voz 
+
+Para este apartado se seleccionó los servicio de Text to Speech y Speech translation, en cual text to speech permite convertir archivos de voz a audios, además el speech translation brinda la traducción de archivos de audios a diversos idiomas, en este caso se realizó al idioma alemán. 
 
 Con respecto al análisis de textos y audios con estos servicios de voz de forma secuencial los tiempos obtenidos con los siguientes:
 
 ![DuracionSecuencial](ImagenesResultadosProyecto/DuracionSecuencial.PNG)
 
+De la imagen anterior se puede observar la duración de ejecución de forma secuencial en diversos datos, como archivos de texto los cuales contienen entre contienen entre 141 a 180 palabras, así como audios, cabe destacar que estas cantidades fueron definidas a partir de la cantidad máxima que se logró ejecutar sin presentar errores de forma secuencial. Es así como a continuación se detalla la información. 
+
+  *En el proceso con 8 textos de manera secuencial duró 19 minutos. 
+  *En el proceso con 12 textos de manera secuencial duró 24 minutos. 
+  *En el proceso con 14 textos de manera secuencial duró 31 minutos. 
+  *En el proceso con 16 textos de manera secuencial falló al ejecutarse, el tiempo desde la ejecución al momento de fallar fue de 43 minutos. 
+    
+ 
 Con respecto al análisis de textos y audios con estos servicios de voz de forma paralela los tiempos obtenidos con los siguientes:
 
 ![DuracionParalela](ImagenesResultadosProyecto/DuracionParalelo.PNG)
+
+De la imagen anterior se puede observar la duración de ejecución de forma paralela en diversos datos, las cantidades fueron definidas a partir de la cantidad máxima que se logró ejecutar sin presentar errores de forma secuencial, para realizar la comparativa en tiempo y datos analizados. Es así como a continuación se detalla la información. 
+
+*En el proceso con 8 textos de manera paralela duró 15 minutos. 
+*En el proceso con 12 textos de manera paralela duró 19 minutos. 
+*En el proceso con 14 textos de manera paralela duró 26 minutos. 
+*En el proceso con 16 textos de manera paralela duró 29 minutos. 
+En la ejecución de estos servicios entre los factores que se presentaron fue la inestabilidad del ancho de banda, así como las transacciones que se permiten realizar ya que en el servicio de voz el límite  
