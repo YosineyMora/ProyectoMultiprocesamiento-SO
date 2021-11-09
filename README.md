@@ -39,10 +39,10 @@ Con respecto al análisis de textos y audios con estos servicios de voz de forma
 
 De la imagen anterior se puede observar la duración de ejecución de forma secuencial en diversos datos, como archivos de texto los cuales contienen entre contienen entre 141 a 180 palabras, así como audios, cabe destacar que estas cantidades fueron definidas a partir de la cantidad máxima que se logró ejecutar sin presentar errores de forma secuencial. Es así como a continuación se detalla la información. 
 
-  *En el proceso con 8 textos de manera secuencial duró 19 minutos. 
-  *En el proceso con 12 textos de manera secuencial duró 24 minutos. 
-  *En el proceso con 14 textos de manera secuencial duró 31 minutos. 
-  *En el proceso con 16 textos de manera secuencial falló al ejecutarse, el tiempo desde la ejecución al momento de fallar fue de 43 minutos. 
+-En el proceso con 8 textos de manera secuencial duró 19 minutos. 
+-En el proceso con 12 textos de manera secuencial duró 24 minutos.
+-En el proceso con 14 textos de manera secuencial duró 31 minutos.  
+-En el proceso con 16 textos de manera secuencial falló al ejecutarse, el tiempo desde la ejecución al momento de fallar fue de 43 minutos. 
     
  
 Con respecto al análisis de textos y audios con estos servicios de voz de forma paralela los tiempos obtenidos con los siguientes:
@@ -51,8 +51,9 @@ Con respecto al análisis de textos y audios con estos servicios de voz de forma
 
 De la imagen anterior se puede observar la duración de ejecución de forma paralela en diversos datos, las cantidades fueron definidas a partir de la cantidad máxima que se logró ejecutar sin presentar errores de forma secuencial, para realizar la comparativa en tiempo y datos analizados. Es así como a continuación se detalla la información. 
 
-*En el proceso con 8 textos de manera paralela duró 15 minutos. 
-*En el proceso con 12 textos de manera paralela duró 19 minutos. 
-*En el proceso con 14 textos de manera paralela duró 26 minutos. 
-*En el proceso con 16 textos de manera paralela duró 29 minutos. 
+-En el proceso con 8 textos de manera paralela duró 15 minutos. 
+-En el proceso con 12 textos de manera paralela duró 19 minutos. 
+-En el proceso con 14 textos de manera paralela duró 26 minutos. 
+-En el proceso con 16 textos de manera paralela duró 29 minutos. 
+
 En la ejecución de estos servicios entre los factores que se presentaron fue la inestabilidad del ancho de banda, así como las transacciones que se permiten realizar ya que en el servicio de voz el límite  
