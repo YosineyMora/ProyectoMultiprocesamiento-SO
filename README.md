@@ -23,6 +23,12 @@ En el gráfico se está representando las cantidades de fotos por el tiempo de d
 
 De acuerdo con los resultados, se muestra que se logra reducir los tiempo aunque no con grandes diferencias, pero esto también se debe a la calidad de Internet que se tenga en el momento u otros aspecto de procesamiento.
 
+Además, para cada imagen se le obtuvieron distintas características y se analizaron con respecto al primer grupo de imagénes que eran 103 fotos:
+
+![DuracionSecuencial](ImagenesResultadosProyecto/Captura1.PNG)
+
+En este gráfico se muestra que del total que eran 103 fotos, se detectaron 291 caras, de esas caras o personas se identificó 26 con accesorios, y hubieron distintas emociones como una persona con enfado, otra persona con miedo y otra persona con disgusto, no se encontraron personas sorprendidas ni tristes, habían 284 que presentaban alegría, así también 32 personas rebeldes y 26 personas con un estado neutro, además, también se encontró que 225 personas eran femeninas y 66 personas masculinas, también se sabe que la edad promedio de todas esas personas es 24 años y 194 presentan maquillaje en la fotos.
+
 #### Text to Speech y Speech translation
 
 Con respecto al análisis de textos y audios con estos servicios de voz de forma secuencial los tiempos obtenidos con los siguientes:
