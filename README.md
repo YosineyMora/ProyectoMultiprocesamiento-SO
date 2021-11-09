@@ -57,9 +57,9 @@ De la imagen anterior se puede observar la duración de ejecución de forma para
 - En el proceso con 8 textos de manera paralela duró 15 minutos.  
 
 - En el proceso con 12 textos de manera paralela duró 19 minutos. 
-- 
+
 - En el proceso con 14 textos de manera paralela duró 26 minutos. 
-- 
+ 
 - En el proceso con 16 textos de manera paralela duró 29 minutos. 
 
 En la ejecución de estos servicios entre los factores que se presentaron fue la inestabilidad del ancho de banda, así como las transacciones que se permiten realizar ya que en el servicio de voz el límite  
