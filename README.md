@@ -78,4 +78,6 @@ De la ilustración anterior se refleja el impacto en tiempo en donde se obtiene 
 
 Además, las transacciones que se permiten realizar en el servicio de voz en relación con el límite permitido generan problemas ya que al implementar el multiprocesamiento de forma directa a las funciones de reconocimiento, se generan errores. 
 
+#### Conclusiones
+
  
