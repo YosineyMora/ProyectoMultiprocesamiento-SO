@@ -33,6 +33,10 @@ En este gráfico se muestra que del total que eran 103 fotos, se detectaron 291 
 
 Para este apartado se seleccionó los servicio de Text to Speech y Speech translation, en cual text to speech permite convertir archivos de voz a audios, además el speech translation brinda la traducción de archivos de audios a diversos idiomas, en este caso se realizó al idioma alemán. 
 
+Los resultados al aplicar estos servicios serán un archivo de audio con extensión .wav, en la cual contiene el audio del texto que se desee traducir, además de un archivo de texto con la traducción en alemán. A continuación, se visualiza imagen de ejemplo del resultado al aplicar los servicios de voz. 
+
+![Resultados](ImagenesResultadosProyecto/archivosResultado.png)
+
 Con respecto al análisis de textos y audios con estos servicios de voz de forma secuencial los tiempos obtenidos con los siguientes:
 
 ![DuracionSecuencial](ImagenesResultadosProyecto/Duracion-Secuencial.PNG)
@@ -62,10 +66,16 @@ De la imagen anterior se puede observar la duración de ejecución de forma para
  
 - En el proceso con 16 textos de manera paralela duró 29 minutos. 
 
+Por lo cual a partir de las pruebas con diferentes cantidades de datos, a continuación se muestra una comparativa entre ambos métodos de ejecución, la diferencia de los tiempos respecto al método secuencial y paralelo son variados, no obstante, se puede observar una mejoría en el paralelo al disminuir entre 4 a 11 minutos del método secuencial.
+
+![DuracionParalela](ImagenesResultadosProyecto/comparativa.PNG)
+
 En la ejecución de estos servicios se presentaron diversos factores causando problemas al realizar el análisis, la inestabilidad del ancho de banda fue una problemática en la cual el tiempo de ejecución de los servicios de voz se ve incrementada, como se muestra a continuación:
 
 ![DuracionParalela](ImagenesResultadosProyecto/Variante-Factor.PNG)
 
-De la ilustración anterior se refleja el impacto en tiempo en donde se obtiene de 12 datos un tiempo en procesamiento paralelo de 19 minutos al ejecutarse en un rango aproximado de horas entre las 4:00pm y 5:0pm, no obstante, la misma cantidad de datos al ejecutarse aproximadamente 1 hora después incrementa a 27 minutos.  De igual forma al realizar las pruebas con 14 datos se da un cambio significativo en los tiempos, dado que de forma paralela en se pasó de 26 minutos a 48 minutos, lo cual muestra un incremento de 22 minutos. 
+De la ilustración anterior se refleja el impacto en tiempo en donde se obtiene de 12 datos un tiempo en procesamiento paralelo de 19 minutos al ejecutarse en un rango aproximado de horas entre las 4:00pm y 5:00pm, no obstante, la misma cantidad de datos al ejecutarse aproximadamente 1 hora después incrementa a 27 minutos.  De igual forma al realizar las pruebas con 14 datos se da un cambio significativo en los tiempos, dado que de forma paralela en se pasó de 26 minutos a 48 minutos, lo cual muestra un incremento de 22 minutos. 
 
 Además, las transacciones que se permiten realizar en el servicio de voz en relación con el límite permitido generan problemas ya que al implementar el multiprocesamiento de forma directa a las funciones de reconocimiento, se generan errores. 
+
+ 
