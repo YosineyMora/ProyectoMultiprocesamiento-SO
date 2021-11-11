@@ -80,4 +80,7 @@ Además, las transacciones que se permiten realizar en el servicio de voz en rel
 
 #### Conclusiones
 
+Azure Microsoft brindan la facilidad de diversos servicios, no obstante, es importante considerar las limitantes en las transacciones que se pueden realizar en ellos, ya que este afecta al aplicar paralelismo en los archivos a análizar.
+
+Al implementar los métodos paralelos se brinda la optimización de tiempos, en comparación al secuencial. Además se debe mencionar el impacto que ocasiona el internet por lo cual se debe analizar las horas factibles para ejecutar estos métodos ya que el tiempo aún con paralelismo aplicado puede aumentar. 
  
