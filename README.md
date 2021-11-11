@@ -2,7 +2,7 @@
 ## Implementación de Azure Services y multiprocesamiento 
 ### Introducción
 
-Se realizará un análisis de los resultados obtenidos del multiprocesamiento aplicado en el uso de diversos servicios de Microsoft Azure. En donde se utilizará del servicio de voz el text to speech, así como speech translation. Se utilizaron los lenguajes de programación de Python y C# para la implementació de los servicios de Microsoft Azure. También se utilizará el servicio de visión, para la identificación de caras y características asociadas a esta, además, es fundamental tener o crearse una cuenta en esta página para conseguir el desarrollo de estas funciones. La implementación de estos servicios es sencilla, se pueden consultar los siguientes enlaces para cada servicio:
+Se realizará un análisis de los resultados obtenidos del multiprocesamiento aplicado en el uso de diversos servicios de Microsoft Azure. En donde se utilizará del servicio de voz el text to speech, así como speech translation. Se utilizaron los lenguajes de programación de Python y C# para la implementació de los servicios de Microsoft Azure. También se utilizará el servicio de visión, para la identificación de caras y características asociadas a esta, además, es fundamental tener o crearse una cuenta en esta página para conseguir el desarrollo de estas funciones. La implementación de estos servicios es sencilla, en los códigos fuentes proporcionados se detalla el funcionamiento de los servicios, pero de igual forma se pueden consultar los siguientes enlaces para conocer acerca de  cada servicio:
 
 Text to Speech:
 - https://azure.microsoft.com/es-es/services/cognitive-services/text-to-speech/#overview
@@ -10,6 +10,9 @@ Text to Speech:
 Speech Translation:
 - https://azure.microsoft.com/es-es/services/cognitive-services/speech-translation/#overview
 
+
+Servicio de visión:
+- https://azure.microsoft.com/es-es/services/cognitive-services/computer-vision/#overview
 
 ### Análisis de Resultados 
 
