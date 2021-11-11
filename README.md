@@ -2,7 +2,7 @@
 ## Implementación de Azure Services y multiprocesamiento 
 ### Introducción
 
-Se realizará un análisis de los resultados obtenidos del multiprocesamiento aplicado en el uso de diversos servicios de Microsoft Azure. En donde se utilizará del servicio de voz el text to speech, así como speech translation.
+Se realizará un análisis de los resultados obtenidos del multiprocesamiento aplicado en el uso de diversos servicios de Microsoft Azure. En donde se utilizará del servicio de voz el text to speech, así como speech translation. Se utilizaron los lenguajes de programación de Python y c# para la implementació de los servicios de Microsoft Azure. 
 
 
 ### Análisis de Resultados 
