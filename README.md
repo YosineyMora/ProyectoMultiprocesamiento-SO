@@ -92,4 +92,5 @@ Además, las transacciones que se permiten realizar en el servicio de voz en rel
 Azure Microsoft brindan la facilidad de diversos servicios, no obstante, es importante considerar las limitantes en las transacciones que se pueden realizar en ellos, ya que este afecta al aplicar paralelismo en los archivos a análizar.
 
 Al implementar los métodos paralelos se brinda la optimización de tiempos, en comparación al secuencial. Además se debe mencionar el impacto que ocasiona el internet por lo cual se debe analizar las horas factibles para ejecutar estos métodos ya que el tiempo aún con paralelismo aplicado puede aumentar. 
- 
+
+Además, esta herramienta es de gran utilidad y sencilla de implementar de manera básica, aunque se le podrían dar grandes usus con mayor investigación y programas más desarrollados, ya que el reconocimiento de imágenes como la traducción de idiomas son herramientas fundamentales que la gran cantidad de aplicaciones utilizan.
